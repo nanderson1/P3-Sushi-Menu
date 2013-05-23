@@ -1,0 +1,95 @@
+/*general*/
+body{
+	font-family: "Karla", sans serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	background: #FFF;
+	}
+ul{
+	list-style: none;
+	}
+.container .rfloat{
+	float: right;
+	}
+h3{
+	font-family: "karla", sans serif;
+	font-weight:bold;
+	font-style:italic;
+	text-transform: uppercase;
+	color: #666;
+	font-size: 2em;
+	
+	}
+
+/*sidebar*/
+h1{
+	text-align:center;
+	margin-top: 30px;
+	}
+
+
+#about{
+		Font-family: "karla", sans serif;
+		width: 40%;
+		}
+#about > p{
+	text-align:center;
+	color:#999;
+	}
+
+#us{
+	margin-top: 20px;
+	color: #000;
+	text-align:center;
+	}
+#about > div > p {
+	margin-left: 45px;
+	margin-right:48px;
+	}
+#logo{
+	font-family: "karla", sans serif;
+	font-weight:bold;
+	font-style:italic;
+	color: #e8ab7f;
+	text-align: center;
+	margin-bottom: 50px;
+	}
+/*main content*/
+#mainC{
+	width: 60%;
+	background: #CCC;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	}
+#mainC h3{
+	text-align: right;
+	margin-right: 30px;
+	}	
+/*menu buttons*/
+#menuitems > h4{
+	float: right;
+	margin-right: 30px;
+	}
+h4{
+	color:#333;
+	}
+.button:hover {
+	color: #c97a53;
+	}
+/*menu items*/
+#menuitems{
+	margin-left: 22px;
+	}
+#menuitems h3{
+	color:#333;
+	font-weight:bold;
+	}
+#menuitems > div{
+	float: left;
+	margin: 20px 20px 0 0;
+	}
+	
+.caption{
+	padding-top: 114px;
+	padding-bottom:117px;
+	}
