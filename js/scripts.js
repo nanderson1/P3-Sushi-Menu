@@ -2,21 +2,21 @@ $(document).ready(function() {
      	$('h1').html('<img src="img/logo.png"/>');
 	 
 		$('#buttonC').click(function(){
-			$('.cooked').show('fast');
-			$('.raw').hide('fast');
+			$('.cooked').fadeIn('slow');
+			$('.raw').fadeOut('slow');
 		});
 		$('#buttonS').click(function(){
-			$('.spicy').show('fast');
-			$('.raw').hide('fast');
-			$('.unspicy').hide('fast');
+			$('.spicy').fadeIn('slow');
+			$('.raw').fadeOut('slow');
+			$('.unspicy').fadeOut('slow');
 		});
 		$('#buttonR').click(function(){
-			$('.raw').show('fast');
-			$('.cooked').hide('fast');
+			$('.raw').fadeIn('slow');
+			$('.cooked').fadeOut('slow');
 		});
 		$('.buttonA').click(function(){
-			$('.raw').show('fast');
-			$('.cooked').show('fast');
+			$('.raw').fadeIn('slow');
+			$('.cooked').fadeIn('slow');
 		});
 		
 		$('.caption').popover({

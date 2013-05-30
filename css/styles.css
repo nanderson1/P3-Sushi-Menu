@@ -3,7 +3,7 @@ body{
 	font-family: "Karla", sans serif;
 	font-size: 1em;
 	line-height: 1.5em;
-	background: #FFF;
+	background: url("../img/base.png");
 	}
 ul{
 	list-style: none;
@@ -16,7 +16,7 @@ h3{
 	font-weight:bold;
 	font-style:italic;
 	text-transform: uppercase;
-	color: #666;
+	color: #efd493;
 	font-size: 2em;
 	
 	}
@@ -34,7 +34,7 @@ h1{
 		}
 #about > p{
 	text-align:center;
-	color:#999;
+	color:#c97a53;
 	}
 
 #us{
@@ -44,6 +44,7 @@ h1{
 	}
 #about > div > p {
 	margin-left: 45px;
+	border-top:3px solid rgb(248, 235, 203);
 	margin-right:48px;
 	}
 #logo{
@@ -56,14 +57,17 @@ h1{
 	}
 /*main content*/
 #mainC{
+	height:1183px;
 	width: 60%;
-	background: #CCC;
+	background: url('../img/bg.png');
 	margin-top: 20px;
 	padding-bottom: 20px;
+	margin-bottom: 200px;
 	}
 #mainC h3{
 	text-align: right;
 	margin-right: 30px;
+	border-bottom:3px solid #efd493;
 	}	
 /*menu buttons*/
 #menuitems > h4{
@@ -71,17 +75,20 @@ h1{
 	margin-right: 30px;
 	}
 h4{
-	color:#333;
+	color:#efd493;
 	}
 .button:hover {
 	color: #c97a53;
+	}
+.button{
+	font-size: 1em;
 	}
 /*menu items*/
 #menuitems{
 	margin-left: 22px;
 	}
 #menuitems h3{
-	color:#333;
+	color:#c97a53;
 	font-weight:bold;
 	}
 #menuitems > div{
@@ -92,4 +99,19 @@ h4{
 .caption{
 	padding-top: 114px;
 	padding-bottom:117px;
+	}
+.popover{
+	background: #fff;
+	border: none;
+	}
+.popover-title{
+	background: none;
+	border-bottom: 3px solid #efd493 !important;
+	width: 249px;
+	}
+.popover.bottom .arrow{
+	border-bottom-color: #efd493;
+	}
+popover.bottom .arrow:after{
+	border-bottom-color: #efd493;
 	}
