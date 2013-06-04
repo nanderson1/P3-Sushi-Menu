@@ -8,6 +8,7 @@ body{
 ul{
 	list-style: none;
 	}
+
 .container .rfloat{
 	float: right;
 	}
@@ -30,7 +31,9 @@ h1{
 
 #about{
 		Font-family: "karla", sans serif;
-		width: 40%;
+		width: 400px;
+		position: fixed;
+		margin-left:-100px;
 		}
 #about > p{
 	text-align:center;
